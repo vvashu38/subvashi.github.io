@@ -59,6 +59,7 @@
     <!-- link tags -->
     <link rel="preload" as="style" href="./css/main.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/form.css" />
 
     <!-- FontAwesome Icons link -->
     <link
@@ -283,24 +284,27 @@
       <div class="contact-wrapper">
         <form id="contactform" action="https://formsubmit.io/send/e600ca78-3173-4dea-91f2-ac1e2671d70d" method="POST">
           <p class="contact-wrapper__text">Fill out the form below:</p>
-          <div>
-            <input type="text" name="name" placeholder="Name" required>
+          <div class="form-container">
+            <form>
+              <div>
+                <input type="text" name="name" placeholder="Name" required>
+              </div>
+              <div>
+                <input type="email" name="email" placeholder="Email" required>
+              </div>
+              <div>
+                <input type="tel" name="phone" placeholder="Phone number" required>
+              </div>
+              <div>
+                <textarea name="message" placeholder="Message" required></textarea>
+              </div>
+              <div>
+                <input name="_formsubmit_id" type="text" style="display:none">
+                <button type="submit" class="cta-btn cta-btn--resume">Submit</button>
+              </div>
+            </form>
           </div>
-          <div>
-            <input type="email" name="email" placeholder="Email" required>
-          </div>
-          <div>
-            <input type="tel" name="phone" placeholder="Phone number" required>
-          </div>
-          <div>
-            <textarea name="message" placeholder="Message" required></textarea>
-          </div>
-          <div>
-            <input name="_formsubmit_id" type="text" style="display:none">
-            <button type="submit" class="cta-btn cta-btn--resume">Submit</button>
-          </div>
-        </form>
-      </div>
+
     </div>
   </section>
     
@@ -347,7 +351,7 @@
             href="https://github.com/vvashu38"
             target="_blank"
             rel="noopener noreferrer"
-            >SUbodh Vashistha</a
+            >Subodh Vashistha</a
           >. <br />Made with &hearts;
         </p>
       </div>
