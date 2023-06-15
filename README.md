@@ -1,7 +1,3 @@
-<h1 align="center"> ⚡️ DevFolio ⚡️</h1>
-
-[![Github](https://img.shields.io/github/license/anilseervi/DevFolio?color=%2312c2e9&logo=github&style=for-the-badge)](https://github.com/AnilSeervi/DevFolio/blob/master/README.md) ![Github Stars](https://img.shields.io/github/stars/anilseervi/DevFolio?color=%23c471ed&style=for-the-badge) ![Github forks](https://img.shields.io/github/forks/anilseervi/DevFolio?color=%23f64f59&style=for-the-badge) ![GitHub deployments](https://img.shields.io/github/deployments/anilseervi/DevFolio/github-pages?label=Deploy&logo=github&style=for-the-badge)
-
 ## A Modern Portfolio Template for Developers!
 
 <h2 align="center">
@@ -18,9 +14,7 @@
 ⚡️ Valid HTML5 & CSS3\
 ⚡ Fast and SEO Optimized
 
-To view a demo example, **[Click Here](https://devfolio.js.org)**\
-To view a live example, **[Click Here](https://anilseervi.github.io/Portfolio/)**\
-To view live example repo, **[Click Here](https://github.com/AnilSeervi/Portfolio/)**
+To view a live example, **[Click Here](https://subvashi.in)**\
 
 ## Getting Started 🚀
 
@@ -34,33 +28,6 @@ You'll also need these two extensions [Live Preview](https://marketplace.visuals
 
 ---
 
-## How To Use 🔧
-
-In VSCode, Open the terminal(<kbd>Ctrl</kbd>+<kbd>\\</kbd> ) and clone the DevFolio Repo.
-
-```bash
-# Clone this repository
-$ git clone https://github.com/AnilSeervi/DevFolio.git
-
-# Go into the repository
-$ cd DevFolio
-
-# Remove current origin repository
-$ git remote remove origin
-```
-
-And delete the [`.github`](./.github) folder as you don't need it.
-
-Now Simply click on **Watch Sass** in the bottom status bar to watch all your `.scss` file chages and compile them to vanilla `.css`.
-And also open `index.html`, right click inside the file and select _Show Preview_ to start a preview at `http://127.0.0.1:3000/`.
-
-<h3 align="center">
-OR
-</h3>
-
-Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> or <kbd>F1</kbd> to Show Command Palette, Search for **Live Sass: Watch Sass** and turn it on. Also search for **Live Preview: Start Server** and turn it on. Doing this will watch all your Sass files for changes and will spin up a live server for you at `http://127.0.0.1:3000/`.
-
----
 
 ## Template Instructions
 
@@ -303,9 +270,6 @@ $secondary-color: #5b86e5;
 - [ScrollReveal.js](https://scrollrevealjs.org/) - JavaScript library
 - [Tilt.js](https://gijsroge.github.io/tilt.js/) - JavaScript tiny parallax library
 
-## Authors
-
-- **Anil Seervi** - [https://github.com/AnilSeervi](https://github.com/AnilSeervi)
 
 ## License 📄
 
